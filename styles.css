@@ -1,0 +1,118 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: -box;
+}
+
+/* Basic body styles */
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+header nav ul li a:hover {
+    background-color: #555;
+}
+
+header h1 {
+    margin-top: 20px;
+}
+
+main {
+    display: flex;
+    justify-content:center;
+    align-items: top;
+    height: 100vh;
+    padding: 20px;
+}
+
+.contact-info {
+    display: inline-block;
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    max-width: 600px; /* Adjust as needed */
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.support-server {
+    text-align: center;
+}
+
+.support-server button {
+    background-color: #333;
+    justify-content:center;
+    align-items: center;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.support-server button:hover {
+    background-color: #4c1297;
+    text-decoration: underline;
+}
+
+.features {
+    display: flex;
+    margin-top: 20px;
+    padding: 0px;
+    background-color: #000000;
+    color: white;
+}
+
+.features div {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    margin: 0 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
